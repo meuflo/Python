@@ -1,15 +1,15 @@
-def anagramme(x,y): #Fonction qui définit si les mots sont des anagrammes.
+def anagramme(x,y): #Function that defines if the words are anagrams
     if sorted(x) == sorted(y):
         return True
     else:
         return False
 
 
-a = input("Saisir le premier mot : ")
-b = input("Saisir le deuxieme mot : ")
+a = input("Enter the first word : ")
+b = input("Enter the second word : ")
 
 tab = [a,b]
-tab1 = { 'éèêẽë' : 'e'     #Tableau de référencement des lettres a remplacer
+tab1 = { 'éèêẽë' : 'e'     #Reference table of letters to replace
         , 'ç'    : 'c'
         , 'àâãâäåá'  : 'a'
         , 'ùúûü'    : 'u'
@@ -22,7 +22,7 @@ y = b.lower()
 print(a)
 print(b)
 
-word_without_accent = "" #Traitement des valeurs avec accent
+word_without_accent = "" #Treatment of values with emphasis
 for i in x :
     for k in tab1:
         if i in k: 
