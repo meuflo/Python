@@ -16,7 +16,7 @@ def decrypt(text,key): #Decryption function
 def menu() : #Menu function
     print("[1] Encrypt")
     print("[2] Decrypt")
-    print("[0] Quitter")
+    print("[0] Leave")
     
 menu()
 option = int(input("Choix : "))
