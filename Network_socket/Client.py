@@ -27,5 +27,4 @@ while True:
         text_send = input("Vous : ")
         s.send(text_send.encode())
 
-
 s.close
