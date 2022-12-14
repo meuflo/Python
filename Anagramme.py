@@ -9,7 +9,7 @@ a = input("Enter the first word : ")
 b = input("Enter the second word : ")
 
 tab = [a,b]
-tab1 = { 'éèêẽë' : 'e'     #Reference table of letters to replace
+tab1 = { 'éèêẽë' : 'e'    #Reference table of letters to replace
         , 'ç'    : 'c'
         , 'àâãâäåá'  : 'a'
         , 'ùúûü'    : 'u'
